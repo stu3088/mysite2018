@@ -32,31 +32,38 @@ nav ul il {
 }
 
 .leftsection {
-    width: 70%;
+    width: 60%;
     float:left;
     background-color: beige;
-    height: 350px;
+    height: 435px;
 }
 
+.left_content {
+    text-align:left;
+    width : 95%;
+    background-color: #cccccc;
+
+}
 aside{
-    width :29%;
+    width :40%;
     float:right;
-    background-color: white;
-    height:350px;
-    border: 1px black;
+    background-color: lightgrey;
+    height:435px;
+    padding: 20px lightblue;
     
+
 
 }
 
 aside ul{
-    list-style-image: none;
+    list-style-image:initial;
     list-style-position: outside;
     list-style-type: none;
     margin:0 auto;
-    width: 900px;
-
+    width:200px;
 
 }
+
 
 aside ul il {
     float: left;
@@ -64,6 +71,9 @@ aside ul il {
     padding-right: 30px;
     font-weight:bold;
 }
+
+
+
 
 footer{
     margin-top :25px;
